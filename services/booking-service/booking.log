@@ -1,0 +1,12 @@
+nohup: ignoring input
+INFO:     Started server process [23328]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8002 (Press CTRL+C to quit)
+INFO:     127.0.0.1:48200 - "POST /bookings HTTP/1.1" 201 Created
+INFO:     127.0.0.1:32966 - "GET /bookings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32982 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36212 - "GET /docs?utm_source=chatgpt.com HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36212 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58960 - "GET /bookings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39916 - "GET /health HTTP/1.1" 200 OK
