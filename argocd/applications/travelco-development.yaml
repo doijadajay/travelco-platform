@@ -1,0 +1,23 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: travelco-development
+  namespace: argocd
+spec:
+  project: default
+
+  source:
+    repoURL: https://github.com/doijadajay/travelco-platform.git
+    targetRevision: develop
+    path: k8s/base
+
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: travelco
+
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
