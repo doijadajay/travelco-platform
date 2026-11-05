@@ -1,0 +1,26 @@
+namespace: default
+
+flags:
+  - key: hotel-discount
+    name: Hotel Discount
+    type: BOOLEAN_FLAG_TYPE
+    enabled: false
+    description: Enable promotional discounts for hotel bookings.
+
+  - key: instant-booking
+    name: Instant Booking
+    type: BOOLEAN_FLAG_TYPE
+    enabled: false
+    description: Allow customers to confirm hotel bookings instantly.
+
+  - key: new-payment-flow
+    name: New Payment Flow
+    type: BOOLEAN_FLAG_TYPE
+    enabled: false
+    description: Enable the redesigned payment workflow.
+
+  - key: new-travel-ui
+    name: New Travel UI
+    type: BOOLEAN_FLAG_TYPE
+    enabled: false
+    description: Enable the updated TravelCo user interface.
