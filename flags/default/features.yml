@@ -5,7 +5,7 @@ flags:
       name: Hotel Discount
       type: BOOLEAN_FLAG_TYPE
       description: Enable promotional discounts for hotel bookings.
-      enabled: false
+      enabled: true
     - key: instant-booking
       name: Instant Booking
       type: BOOLEAN_FLAG_TYPE
